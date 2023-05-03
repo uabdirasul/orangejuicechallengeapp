@@ -100,3 +100,30 @@ body {
   right: -15px;
   color: #fff;
 }
+
+/* responsive */
+@media (min-width: 0) and (max-width: 475px) {
+  .card {
+    width: 80%;
+  }
+
+  .card__img {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 475px) and (max-width: 779px) {
+  .card {
+    width: 45%;
+  }
+
+  .card__img {
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+  .card {
+    width: 45%;
+  }
+}
