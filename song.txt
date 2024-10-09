@@ -1,3 +1,7 @@
 lorem ipsum
 -----------------------
 add another line
++++
+---
+***
+///
